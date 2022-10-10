@@ -46,11 +46,6 @@ def caesar_enc(text,s,right=True):
          	result += char;
     return result
 
-#text = "hello world"
-#s = 3
-#message = caesar_enc(text,s)
-#print(message)
-
 def caesar_dec(message):
     for i in range(1,27):
 	    print(f"Key {i}:",caesar_enc(message, i))
@@ -112,17 +107,6 @@ def morse_dec(message):
                 citext = ''
     return decipher
 
-#    message = "HELLO"
-#    result = encrypt(message.upper())
-#    print (result)
-#    result = decrypt(result)
-#    print (result)
-
-#with open('declaration.txt') as f:
-#    lines = [line for line in f]
-
-#txt = ["we","shall","dissolve","and","kill"]
-
 def find_index(tt,lines):
     c1 = 0; c2 = 0
     for words in lines:
@@ -151,4 +135,3 @@ def book_dec(tt,lines):
     for z in range(len(tt)):
         li.append(find_word(tt[z],lines))
     return li
-#print(book_dec(book_enc(txt,lines),lines))
