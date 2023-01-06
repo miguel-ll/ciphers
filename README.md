@@ -4,7 +4,7 @@
 
 # Essential functions and usage
 
-- ciphers.py
+**ciphers.py:**
 
 - `rot13(arg)` - Encrypt/Decrypt a text and returns using the rot13 cipher.
 - `rot47(arg)` - Encrypt/Decrypt a text and returns using the rot47 cipher. 
@@ -16,6 +16,6 @@
 - `book_enc(tt,lines)` - Encrypt a text *tt* according to the argument *lines* retrieved from a text file and returns, using the book cipher. 
 - `book_enc(tt,lines)` - Decrypt a text *tt* after a book cipher, according to the argument *lines* retrieved from a text file and returns. 
 
-- fplot.py: 
+**fplot.py:** 
 
 - `letters_dist(txt)` - Plots a distribuition based on the frequency of letters used in the text.
